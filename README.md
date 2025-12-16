@@ -31,5 +31,8 @@ For this milestone the focus was on databases. I already have two databases in t
 I also cleaned things up. I removed my testing Toast popups. I removed older imports and variables I was not using anymore. Part of redoing the getEvents method, I also reworked todaysEvent and tomorrowsEvents to remove duplicate code. Now both of those call getEvent and search the events from that. For something this size the I really don’t need to query the database for each of those.<br><br>
 
 
+<a href="Event Tracker Repo">https://github.com/Greggo-Waffles/EventTracker</a>
+
+
 
 
