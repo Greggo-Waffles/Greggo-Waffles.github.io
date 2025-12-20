@@ -32,7 +32,9 @@ I also cleaned things up. I removed my testing Toast popups. I removed older imp
 
 ![Image of group entry](./images/image_2025-12-15_235157891.png)
 
-<a href="Event Tracker Repo">https://github.com/Greggo-Waffles/EventTracker</a>
+<a href="Event Tracker Repo">https://github.com/Greggo-Waffles/EventTracker</a> <br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9sKwJ96vGs?si=R_SxonuH26VeAB39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
