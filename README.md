@@ -34,6 +34,8 @@ I also cleaned things up. I removed my testing Toast popups. I removed older imp
 
 <a href="Event Tracker Repo">https://github.com/Greggo-Waffles/EventTracker</a> <br><br>
 
+Firebase distribution link: [Distro Link](https://appdistribution.firebase.dev/i/a6731f2ac31e61fc)<br><br> 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9sKwJ96vGs?si=R_SxonuH26VeAB39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
