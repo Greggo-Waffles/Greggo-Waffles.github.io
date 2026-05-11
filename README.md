@@ -32,7 +32,7 @@ I also cleaned things up. I removed my testing Toast popups. I removed older imp
 
 ![Image of group entry](./images/image_2025-12-15_235157891.png)
 
-<a href="Event Tracker Repo">https://github.com/Greggo-Waffles/EventTracker</a> <br><br>
+<a href="https://github.com/Greggo-Waffles/EventTracker">Event Tracker Repository</a>
 
 Test distribution link (requires Android 14+): [Download eventTracker APK](./app-release.apk)<br><br> 
 
