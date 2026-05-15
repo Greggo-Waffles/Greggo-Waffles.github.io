@@ -34,10 +34,9 @@ I also cleaned things up. I removed my testing Toast popups. I removed older imp
 
 <a href="https://github.com/Greggo-Waffles/EventTracker">Event Tracker Repository</a>
 
-<strong>Requirements and Privacy:</strong> Android 12 or higher required. This app uses Firebase Crashlytics for crash reporting, which collects device information including device model, OS version, and crash diagnostics. <strong>Sideloading on unsupported Android versions will result in crashes</strong><br><br> 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9sKwJ96vGs?si=R_SxonuH26VeAB39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<strong>Requirements and Privacy:</strong> Android 12 or higher required. This app uses Firebase Crashlytics for crash reporting, which collects device information including device model, OS version, and crash diagnostics. <strong>Sideloading on unsupported Android versions will result in crashes</strong><br><br> 
 
 <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1.5rem 1.75rem;margin:2rem 0;font-family:sans-serif;">
   <p style="font-weight:600;font-size:15px;margin:0 0 6px;">Try the app on your device</p>
