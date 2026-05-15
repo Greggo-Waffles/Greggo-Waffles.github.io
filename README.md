@@ -36,10 +36,18 @@ I also cleaned things up. I removed my testing Toast popups. I removed older imp
 
 <strong>Requirements and Privacy:</strong> Android 12 or higher required. This app uses Firebase Crashlytics for crash reporting, which collects device information including device model, OS version, and crash diagnostics. <strong>Sideloading on unsupported Android versions will result in crashes</strong><br><br> 
 
-Test distribution link (<strong>requires Android 12+</strong>): [Download eventTracker APK](./app-release.apk)<br><br> 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9sKwJ96vGs?si=R_SxonuH26VeAB39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
-
+<div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1.5rem 1.75rem;margin:2rem 0;font-family:sans-serif;">
+  <p style="font-weight:600;font-size:15px;margin:0 0 6px;">Try the app on your device</p>
+  <p style="font-size:14px;color:#6b7280;margin:0 0 1.25rem;line-height:1.6;">
+    Event Tracker is distributed via Google Play Internal App Sharing and requires Android 12 or higher.
+    To request access, send an email below and I will follow up with the install link.
+  </p>
+  <a href="mailto:gepittman1+dev@gmail.com?subject=Event%20Tracker%20APK%20Request&body=Hi%20Greg%2C%0A%0AI%20would%20like%20to%20try%20the%20Event%20Tracker%20app.%20Please%20send%20me%20the%20install%20link.%0A%0AThanks"
+     style="display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:8px;border:1px solid #d1d5db;background:#fff;font-size:14px;font-weight:500;color:#111;text-decoration:none;">
+    ✉ Request access
+  </a>
+  <span style="display:block;margin-top:8px;font-size:12px;color:#9ca3af;">gepittman1+dev@gmail.com</span>
+</div>
