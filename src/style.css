@@ -1,0 +1,88 @@
+/* Defigns Sidebar */
+:root {
+    --sidebar-width: 250px;
+}
+
+/* Defines Nav Sidebar */
+.nav-sidebar {
+    position: fixed;
+    top: 0;
+    left: calc(-1 * var(--sidebar-width));
+    width: var(--sidebar-width);
+    height: 100%;
+    background: #111;
+    color: #fff;
+    transition: left 0.2s ease;
+}
+
+/* Defines Nav Sidebar Open */
+.nav-sidebar.is-open {
+    left: 0;
+}
+
+/* Defines Nav Sidebar Links */
+.nav-sidebar ul {
+    list-style: none;
+    padding: 2rem 1rem;
+    margin: 0;
+}
+
+.nav-sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+/* Defines Nav Sidebar Button */
+.nav-toggle {
+    position: fixed;
+    top: .5rem;
+    left: 1rem;
+    z-index: 9999;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: left 0.2s ease;
+}
+
+.nav-toggle:hover .nav-mark {
+    transform: scale(1.15);
+}
+
+/* Defines Nav Sidebar Button Open */
+.nav-toggle.is-open {
+    left: calc(var(--sidebar-width) - 3rem);
+}
+
+/* Defines Nav Sidebar Button Mark */
+.nav-mark {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-mark text {
+    font-family: monospace;
+    font-size: 23px;
+    font-weight: bold;
+    fill: currentColor;
+}
+
+/*
+ * Changes Color of Nav Sidebar Button Mark Open
+ */
+.nav-toggle.is-open .nav-mark text {
+    fill: #fff;
+}
+
+main {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+}
+
+/* Defines Main Background */
+body {
+    background-color: #F5F5F5;
+}

@@ -1,0 +1,29 @@
+<!-- Defines Nav Sidebar Functionality -->
+<nav class="site-nav">
+    <!-- Defines Nav Button Text -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg class="nav-mark" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <text x="4" y="22">[#]</text>
+        </svg>
+    </button>
+    <!-- Defines what links are in the Nav Sidebar -->
+    <div class="nav-sidebar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/code/">Code</a></li>
+            <li><a href="/visual/">Visual</a></li>
+            <li><a href="/audio/">Audio</a></li>
+            <li><a href="/archive/">Archive</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Defines Nav Button action -->
+<script>
+    document.querySelector('.nav-toggle').addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        this.classList.toggle('is-open');
+        document.querySelector('.nav-sidebar').classList.toggle('is-open');
+    });
+</script>
