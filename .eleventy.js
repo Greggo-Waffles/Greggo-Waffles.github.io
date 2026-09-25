@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/visual/VisualImages");
     eleventyConfig.addPassthroughCopy("src/archive/MayaImages");
     eleventyConfig.addPassthroughCopy("src/archive/OldAudio");
-    eleventyConfig.addPassthroughCopy("src/robot.txt");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 
     eleventyConfig.addShortcode("image", async function (src, alt) {
         const Image = (await import("@11ty/eleventy-img")).default;
